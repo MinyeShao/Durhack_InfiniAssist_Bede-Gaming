@@ -1,0 +1,23 @@
+{
+    "devDependencies": {
+        "sass": "^1.56.2",
+        "sass-loader": "^10.4.1"
+    },
+    "dependencies": {
+        "uview-ui": "^2.0.35"
+    },
+    "id": "Coder-ChatGPT",
+    "name": "ChatGPT Mini Program Page Template Going Viral Across the Internet, Let AI Answer Any Question for You!",
+    "displayName": "ChatGPT Mini Program Page Template Going Viral Across the Internet, Let AI Answer Any Question for You!",
+    "version": "1.0.1",
+    "description": "ChatGPT is going viral across the internet. This is a pure page template for WeChat Mini Program, created for making new friends. Contact via WeChat: 18786709420",
+    "keywords": [
+        "ChatGPT"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app front-end template",
+            "uni-app front-end project template"
+        ]
+    }
+}

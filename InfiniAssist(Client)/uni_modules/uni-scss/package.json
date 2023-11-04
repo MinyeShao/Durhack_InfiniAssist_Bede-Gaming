@@ -1,0 +1,82 @@
+{
+  "id": "uni-scss",
+  "displayName": "uni-scss Helper Styles",
+  "version": "1.0.3",
+  "description": "uni-sass is a set of global styles provided by uni-ui for simple page layout operations using class names and Sass variables, such as colors, margins, and borders.",
+  "keywords": [
+    "uni-scss",
+    "uni-ui",
+    "helper styles"
+  ],
+  "repository": "https://github.com/dcloudio/uni-ui",
+  "engines": {
+    "HBuilderX": "^3.1.0"
+  },
+  "dcloudext": {
+    "category": [
+      "JS SDK",
+      "General SDK"
+    ],
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "None",
+      "data": "None",
+      "permissions": "None"
+    },
+    "npmurl": "https://www.npmjs.com/package/@dcloudio/uni-ui"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "u"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "WeChat Browser (Android)": "y",
+          "QQ Browser (Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "y",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "Mini Program": {
+          "WeChat": "y",
+          "Alibaba": "y",
+          "Baidu": "y",
+          "Bytedance": "y",
+          "QQ": "y"
+        },
+        "Quick App": {
+          "Huawei": "n",
+          "Union": "n"
+        },
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        }
+      }
+    }
+  }
+}

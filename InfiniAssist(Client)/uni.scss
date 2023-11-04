@@ -1,0 +1,75 @@
+/**
+ * Here are commonly used built-in style variables in uni-app.
+ *
+ * Many third-party plugins on the official extensions marketplace (https://ext.dcloud.net.cn) also use these style variables.
+ * If you are a plugin developer, it is recommended to use SCSS preprocessing and directly use these variables in your plugin code (no need to import this file), making it easier for users to develop a consistent app style using building blocks.
+ *
+ * If you are an app developer (plugin user), you can customize your plugin theme by modifying these variables to achieve a custom theme.
+ *
+ * If your project also uses SCSS preprocessing, you can use the following variables directly in your SCSS code without importing this file.
+ */
+/* uni.scss */
+@import 'uview-ui/theme.scss';
+
+/* Color variables */
+
+/* Action-related colors */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* Basic text colors */
+$uni-text-color: #333; // Basic color
+$uni-text-color-inverse: #fff; // Reverse color
+$uni-text-color-grey: #999; // Auxiliary gray, e.g., loading more prompt information
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable: #c0c0c0;
+
+/* Background colors */
+$uni-bg-color: #ffffff;
+$uni-bg-color-grey: #f8f8f8;
+$uni-bg-color-hover: #f1f1f1; // Click state color
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4); // Mask color
+
+/* Border colors */
+$uni-border-color: #c8c7cc;
+
+/* Size variables */
+
+/* Text sizes */
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
+
+/* Image sizes */
+$uni-img-size-sm: 20px;
+$uni-img-size-base: 26px;
+$uni-img-size-lg: 40px;
+
+/* Border Radius */
+$uni-border-radius-sm: 2px;
+$uni-border-radius-base: 3px;
+$uni-border-radius-lg: 6px;
+$uni-border-radius-circle: 50%;
+
+/* Horizontal spacing */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+/* Vertical spacing */
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+/* Opacity */
+$uni-opacity-disabled: 0.3; // Opacity for component's disabled state
+
+/* Article-related */
+$uni-color-title: #2C405A; // Article title color
+$uni-font-size-title: 20px;
+$uni-color-subtitle: #555555; // Secondary title color
+$uni-font-size-subtitle: 26px;
+$uni-color-paragraph: #3F536E; // Paragraph color in articles
+$uni-font-size-paragraph: 15px;
